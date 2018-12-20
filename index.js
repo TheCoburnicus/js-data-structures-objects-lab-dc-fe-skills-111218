@@ -33,5 +33,5 @@ const newDriver = Object.assign({}, driver);
   
   driver;
 
-  return newDriver;
+  return Object.assign(driver, {[key]: value});
 }
