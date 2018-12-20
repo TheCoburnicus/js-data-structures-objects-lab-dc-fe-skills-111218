@@ -29,7 +29,9 @@ const newDriver = Object.assign({}, driver);
 
   delete newDriver[key];
   
+  newDriver;
   
+  driver;
 
   return newDriver;
 }
